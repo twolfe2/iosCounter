@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A762C4791D95C581009B9BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C4781D95C581009B9BFB /* main.m */; };
+		A762C47C1D95C581009B9BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C47B1D95C581009B9BFB /* AppDelegate.m */; };
+		A762C47F1D95C581009B9BFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C47E1D95C581009B9BFB /* ViewController.m */; };
+		A762C4821D95C582009B9BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A762C4801D95C582009B9BFB /* Main.storyboard */; };
+		A762C4841D95C582009B9BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A762C4831D95C582009B9BFB /* Assets.xcassets */; };
+		A762C4871D95C582009B9BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A762C4851D95C582009B9BFB /* LaunchScreen.storyboard */; };
+		A762C4921D95C582009B9BFB /* leanplumButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C4911D95C582009B9BFB /* leanplumButtonTests.m */; };
+		A762C49D1D95C582009B9BFB /* leanplumButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C49C1D95C582009B9BFB /* leanplumButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A762C48E1D95C582009B9BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A762C46C1D95C581009B9BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A762C4731D95C581009B9BFB;
+			remoteInfo = leanplumButton;
+		};
+		A762C4991D95C582009B9BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A762C46C1D95C581009B9BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A762C4731D95C581009B9BFB;
+			remoteInfo = leanplumButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A762C4741D95C581009B9BFB /* leanplumButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leanplumButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A762C4781D95C581009B9BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A762C47A1D95C581009B9BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A762C47B1D95C581009B9BFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A762C47D1D95C581009B9BFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A762C47E1D95C581009B9BFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A762C4811D95C582009B9BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A762C4831D95C582009B9BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A762C4861D95C582009B9BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A762C4881D95C582009B9BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A762C48D1D95C582009B9BFB /* leanplumButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leanplumButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A762C4911D95C582009B9BFB /* leanplumButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leanplumButtonTests.m; sourceTree = "<group>"; };
+		A762C4931D95C582009B9BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A762C4981D95C582009B9BFB /* leanplumButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leanplumButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A762C49C1D95C582009B9BFB /* leanplumButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leanplumButtonUITests.m; sourceTree = "<group>"; };
+		A762C49E1D95C582009B9BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A762C4711D95C581009B9BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A762C48A1D95C582009B9BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A762C4951D95C582009B9BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A762C46B1D95C581009B9BFB = {
+			isa = PBXGroup;
+			children = (
+				A762C4761D95C581009B9BFB /* leanplumButton */,
+				A762C4901D95C582009B9BFB /* leanplumButtonTests */,
+				A762C49B1D95C582009B9BFB /* leanplumButtonUITests */,
+				A762C4751D95C581009B9BFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A762C4751D95C581009B9BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A762C4741D95C581009B9BFB /* leanplumButton.app */,
+				A762C48D1D95C582009B9BFB /* leanplumButtonTests.xctest */,
+				A762C4981D95C582009B9BFB /* leanplumButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A762C4761D95C581009B9BFB /* leanplumButton */ = {
+			isa = PBXGroup;
+			children = (
+				A762C47A1D95C581009B9BFB /* AppDelegate.h */,
+				A762C47B1D95C581009B9BFB /* AppDelegate.m */,
+				A762C47D1D95C581009B9BFB /* ViewController.h */,
+				A762C47E1D95C581009B9BFB /* ViewController.m */,
+				A762C4801D95C582009B9BFB /* Main.storyboard */,
+				A762C4831D95C582009B9BFB /* Assets.xcassets */,
+				A762C4851D95C582009B9BFB /* LaunchScreen.storyboard */,
+				A762C4881D95C582009B9BFB /* Info.plist */,
+				A762C4771D95C581009B9BFB /* Supporting Files */,
+			);
+			path = leanplumButton;
+			sourceTree = "<group>";
+		};
+		A762C4771D95C581009B9BFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A762C4781D95C581009B9BFB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A762C4901D95C582009B9BFB /* leanplumButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				A762C4911D95C582009B9BFB /* leanplumButtonTests.m */,
+				A762C4931D95C582009B9BFB /* Info.plist */,
+			);
+			path = leanplumButtonTests;
+			sourceTree = "<group>";
+		};
+		A762C49B1D95C582009B9BFB /* leanplumButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A762C49C1D95C582009B9BFB /* leanplumButtonUITests.m */,
+				A762C49E1D95C582009B9BFB /* Info.plist */,
+			);
+			path = leanplumButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A762C4731D95C581009B9BFB /* leanplumButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A762C4A11D95C582009B9BFB /* Build configuration list for PBXNativeTarget "leanplumButton" */;
+			buildPhases = (
+				A762C4701D95C581009B9BFB /* Sources */,
+				A762C4711D95C581009B9BFB /* Frameworks */,
+				A762C4721D95C581009B9BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leanplumButton;
+			productName = leanplumButton;
+			productReference = A762C4741D95C581009B9BFB /* leanplumButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A762C48C1D95C582009B9BFB /* leanplumButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A762C4A41D95C582009B9BFB /* Build configuration list for PBXNativeTarget "leanplumButtonTests" */;
+			buildPhases = (
+				A762C4891D95C582009B9BFB /* Sources */,
+				A762C48A1D95C582009B9BFB /* Frameworks */,
+				A762C48B1D95C582009B9BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A762C48F1D95C582009B9BFB /* PBXTargetDependency */,
+			);
+			name = leanplumButtonTests;
+			productName = leanplumButtonTests;
+			productReference = A762C48D1D95C582009B9BFB /* leanplumButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A762C4971D95C582009B9BFB /* leanplumButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A762C4A71D95C582009B9BFB /* Build configuration list for PBXNativeTarget "leanplumButtonUITests" */;
+			buildPhases = (
+				A762C4941D95C582009B9BFB /* Sources */,
+				A762C4951D95C582009B9BFB /* Frameworks */,
+				A762C4961D95C582009B9BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A762C49A1D95C582009B9BFB /* PBXTargetDependency */,
+			);
+			name = leanplumButtonUITests;
+			productName = leanplumButtonUITests;
+			productReference = A762C4981D95C582009B9BFB /* leanplumButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A762C46C1D95C581009B9BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Thomas Wolfe";
+				TargetAttributes = {
+					A762C4731D95C581009B9BFB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A762C48C1D95C582009B9BFB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A762C4731D95C581009B9BFB;
+					};
+					A762C4971D95C582009B9BFB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A762C4731D95C581009B9BFB;
+					};
+				};
+			};
+			buildConfigurationList = A762C46F1D95C581009B9BFB /* Build configuration list for PBXProject "leanplumButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A762C46B1D95C581009B9BFB;
+			productRefGroup = A762C4751D95C581009B9BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A762C4731D95C581009B9BFB /* leanplumButton */,
+				A762C48C1D95C582009B9BFB /* leanplumButtonTests */,
+				A762C4971D95C582009B9BFB /* leanplumButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A762C4721D95C581009B9BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A762C4871D95C582009B9BFB /* LaunchScreen.storyboard in Resources */,
+				A762C4841D95C582009B9BFB /* Assets.xcassets in Resources */,
+				A762C4821D95C582009B9BFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A762C48B1D95C582009B9BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A762C4961D95C582009B9BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A762C4701D95C581009B9BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A762C47F1D95C581009B9BFB /* ViewController.m in Sources */,
+				A762C47C1D95C581009B9BFB /* AppDelegate.m in Sources */,
+				A762C4791D95C581009B9BFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A762C4891D95C582009B9BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A762C4921D95C582009B9BFB /* leanplumButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A762C4941D95C582009B9BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A762C49D1D95C582009B9BFB /* leanplumButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A762C48F1D95C582009B9BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A762C4731D95C581009B9BFB /* leanplumButton */;
+			targetProxy = A762C48E1D95C582009B9BFB /* PBXContainerItemProxy */;
+		};
+		A762C49A1D95C582009B9BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A762C4731D95C581009B9BFB /* leanplumButton */;
+			targetProxy = A762C4991D95C582009B9BFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A762C4801D95C582009B9BFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A762C4811D95C582009B9BFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A762C4851D95C582009B9BFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A762C4861D95C582009B9BFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A762C49F1D95C582009B9BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A762C4A01D95C582009B9BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A762C4A21D95C582009B9BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = leanplumButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thomas.wolfe.leanplumButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A762C4A31D95C582009B9BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = leanplumButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thomas.wolfe.leanplumButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A762C4A51D95C582009B9BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = leanplumButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thomas.wolfe.leanplumButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leanplumButton.app/leanplumButton";
+			};
+			name = Debug;
+		};
+		A762C4A61D95C582009B9BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = leanplumButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thomas.wolfe.leanplumButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/leanplumButton.app/leanplumButton";
+			};
+			name = Release;
+		};
+		A762C4A81D95C582009B9BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = leanplumButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thomas.wolfe.leanplumButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = leanplumButton;
+			};
+			name = Debug;
+		};
+		A762C4A91D95C582009B9BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = leanplumButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thomas.wolfe.leanplumButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = leanplumButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A762C46F1D95C581009B9BFB /* Build configuration list for PBXProject "leanplumButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A762C49F1D95C582009B9BFB /* Debug */,
+				A762C4A01D95C582009B9BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A762C4A11D95C582009B9BFB /* Build configuration list for PBXNativeTarget "leanplumButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A762C4A21D95C582009B9BFB /* Debug */,
+				A762C4A31D95C582009B9BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A762C4A41D95C582009B9BFB /* Build configuration list for PBXNativeTarget "leanplumButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A762C4A51D95C582009B9BFB /* Debug */,
+				A762C4A61D95C582009B9BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A762C4A71D95C582009B9BFB /* Build configuration list for PBXNativeTarget "leanplumButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A762C4A81D95C582009B9BFB /* Debug */,
+				A762C4A91D95C582009B9BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A762C46C1D95C581009B9BFB /* Project object */;
+}

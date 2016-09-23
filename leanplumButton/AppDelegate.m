@@ -7,16 +7,32 @@
 //
 
 #import "AppDelegate.h"
+#import <Leanplum/Leanplum.h>
+
 
 @interface AppDelegate ()
 
 @end
 
-@implementation AppDelegate
+DEFINE_VAR_STRING(welcomeMessage, @"Welcome to Leanplum!");
 
+
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    #ifdef DEBUG
+        LEANPLUM_USE_ADVERTISING_ID;
+        [Leanplum setAppId:@"app_dsSG8DL4XdMMHqcBECSCM2lWB9dHBzGIwWQoLhCUUIs" withDevelopmentKey:@"dev_d44id0w2sXN18xRgnfSOaJqxTXm76eK0nYa1tBZFYrM"];
+    #else
+        [Leanplum setAppId:@"app_dsSG8DL4XdMMHqcBECSCM2lWB9dHBzGIwWQoLhCUUIs" withProductionKey:@"prod_1GhZm1YtHrEnWkwSyev4QnBzbBzhzXSKBPcZbyeYblk"];
+    #endif
+    
+    [Leanplum start];
+    [Leanplum onVariablesChanged:^{
+        NSLog(@"%@", welcomeMessage.stringValue);
+    }];
+
     return YES;
 }
 

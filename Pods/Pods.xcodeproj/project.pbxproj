@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B853954D6684D80DA42C6CB269DE6B6 /* Pods-leanplumButtonUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDECA381AD99FF3CE5C537C32FA186D /* Pods-leanplumButtonUITests-dummy.m */; };
+		4B73FBBB7BCA7D155B1572980F70486F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9E862BD52221842A6BCC140104D6DB36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AADADC9F6874E36801B3EFD98B3E97E6 /* Pods-leanplumButtonTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4677BA552C463DF771649F475F1BE4 /* Pods-leanplumButtonTests-dummy.m */; };
+		DC8E2D02FF7983BEE05ADD8C7B8F5C58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F7907C8A063B496859E1D88F1E6CE311 /* Pods-leanplumButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1CA25CE68D4E2DE7445051D5A53ABF /* Pods-leanplumButton-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12CAC6B86A2EDB6AEDACF4800E9C63DF /* Pods-leanplumButtonTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-leanplumButtonTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1717E02BA4AFEEF765F21A4B285030B6 /* Leanplum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Leanplum.h; path = Leanplum.framework/Headers/Leanplum.h; sourceTree = "<group>"; };
+		33F07D11EDE1D6DD5720063D003B1195 /* Pods-leanplumButtonUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leanplumButtonUITests-frameworks.sh"; sourceTree = "<group>"; };
+		35AE70CDEAF8AD0A7BC7E68357CACE27 /* Pods-leanplumButtonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leanplumButtonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3614A2FF19B96E8A78F46E3A24292912 /* Pods-leanplumButtonTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leanplumButtonTests-frameworks.sh"; sourceTree = "<group>"; };
+		3F7F647A90D4D9DE539743AC22C0F324 /* Pods-leanplumButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-leanplumButton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		41A259A557BC8032FD013DC2903E32CF /* Pods-leanplumButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leanplumButton-resources.sh"; sourceTree = "<group>"; };
+		4BD9E932B95F8E0EE92CCE1DF8DD2135 /* Pods-leanplumButtonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leanplumButtonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D4677BA552C463DF771649F475F1BE4 /* Pods-leanplumButtonTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-leanplumButtonTests-dummy.m"; sourceTree = "<group>"; };
+		52602FD085231B3CCEB87CBE0F7A52AE /* Pods-leanplumButtonUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-leanplumButtonUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		56C198E8652471C843C6252F05C77AEB /* libPods-leanplumButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leanplumButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E59725E8F418629A832F64DA1D0643A /* Pods-leanplumButtonUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leanplumButtonUITests-resources.sh"; sourceTree = "<group>"; };
+		6CDECA381AD99FF3CE5C537C32FA186D /* Pods-leanplumButtonUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-leanplumButtonUITests-dummy.m"; sourceTree = "<group>"; };
+		723E7B1B4DAECF642F2F607D37474054 /* Pods-leanplumButtonUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-leanplumButtonUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74C13E9AEF34B12DEB789A9591CC6ED0 /* Leanplum.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Leanplum.framework; sourceTree = "<group>"; };
+		7618ABD5C7002180C66ADF02FEC4A31E /* libPods-leanplumButtonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leanplumButtonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8955888B66C6866776608DE9B0DCC5F6 /* Pods-leanplumButtonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leanplumButtonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8BC0A267A327464C9D918771D48DE4DE /* Pods-leanplumButtonTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-leanplumButtonTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E1CA25CE68D4E2DE7445051D5A53ABF /* Pods-leanplumButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-leanplumButton-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99E5068A7A065A06E00FF5BC8A0A6C58 /* Pods-leanplumButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leanplumButton.debug.xcconfig"; sourceTree = "<group>"; };
+		9E854CBBD312F5E53BABE64ACE4721EA /* Pods-leanplumButtonTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leanplumButtonTests-resources.sh"; sourceTree = "<group>"; };
+		C5554847572C82EA5BCC179BFA67C70C /* libPods-leanplumButtonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leanplumButtonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD18B21053C7970D1A6A32924ED6404 /* Pods-leanplumButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-leanplumButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E6DD33821378AD14A41922DBFEA57482 /* Pods-leanplumButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leanplumButtonTests.release.xcconfig"; sourceTree = "<group>"; };
+		F3D72A54F9CD118FB0ECC217E07F4963 /* Pods-leanplumButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-leanplumButton.release.xcconfig"; sourceTree = "<group>"; };
+		F5E0F7B0A224DACBBEDAC6A079AF320C /* Pods-leanplumButton-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-leanplumButton-frameworks.sh"; sourceTree = "<group>"; };
+		FFAD36486ABEC63B94D9A67402D69E1E /* LPNewsfeed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPNewsfeed.h; path = Leanplum.framework/Headers/LPNewsfeed.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		321F28E168063F1C6BFF05ECF00C5B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8E2D02FF7983BEE05ADD8C7B8F5C58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38764DDD858E0565FEA863339D6B3226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E862BD52221842A6BCC140104D6DB36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B7D229BE98B14FE5D068FBF5A160C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B73FBBB7BCA7D155B1572980F70486F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4AEBC930C7DA1FD7E1FEB76D9500B059 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DA84BB144E9F2A3DC64B0F049B30398 /* Pods-leanplumButton */,
+				A28F0655197E235B4D7A118FCFC7E6FF /* Pods-leanplumButtonTests */,
+				E34CF555CA1020ECA1C237CDD8028D74 /* Pods-leanplumButtonUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		510BFBDFDFCAC248380BEC9497BEA8C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56C198E8652471C843C6252F05C77AEB /* libPods-leanplumButton.a */,
+				C5554847572C82EA5BCC179BFA67C70C /* libPods-leanplumButtonTests.a */,
+				7618ABD5C7002180C66ADF02FEC4A31E /* libPods-leanplumButtonUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73168592F8F7910D8BD1CBC48E8B020C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B402E5D472E7F58CE5C96B94CD8E764C /* Leanplum-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				73168592F8F7910D8BD1CBC48E8B020C /* Pods */,
+				510BFBDFDFCAC248380BEC9497BEA8C8 /* Products */,
+				4AEBC930C7DA1FD7E1FEB76D9500B059 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA84BB144E9F2A3DC64B0F049B30398 /* Pods-leanplumButton */ = {
+			isa = PBXGroup;
+			children = (
+				3F7F647A90D4D9DE539743AC22C0F324 /* Pods-leanplumButton-acknowledgements.markdown */,
+				CAD18B21053C7970D1A6A32924ED6404 /* Pods-leanplumButton-acknowledgements.plist */,
+				8E1CA25CE68D4E2DE7445051D5A53ABF /* Pods-leanplumButton-dummy.m */,
+				F5E0F7B0A224DACBBEDAC6A079AF320C /* Pods-leanplumButton-frameworks.sh */,
+				41A259A557BC8032FD013DC2903E32CF /* Pods-leanplumButton-resources.sh */,
+				99E5068A7A065A06E00FF5BC8A0A6C58 /* Pods-leanplumButton.debug.xcconfig */,
+				F3D72A54F9CD118FB0ECC217E07F4963 /* Pods-leanplumButton.release.xcconfig */,
+			);
+			name = "Pods-leanplumButton";
+			path = "Target Support Files/Pods-leanplumButton";
+			sourceTree = "<group>";
+		};
+		A28F0655197E235B4D7A118FCFC7E6FF /* Pods-leanplumButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				12CAC6B86A2EDB6AEDACF4800E9C63DF /* Pods-leanplumButtonTests-acknowledgements.markdown */,
+				8BC0A267A327464C9D918771D48DE4DE /* Pods-leanplumButtonTests-acknowledgements.plist */,
+				4D4677BA552C463DF771649F475F1BE4 /* Pods-leanplumButtonTests-dummy.m */,
+				3614A2FF19B96E8A78F46E3A24292912 /* Pods-leanplumButtonTests-frameworks.sh */,
+				9E854CBBD312F5E53BABE64ACE4721EA /* Pods-leanplumButtonTests-resources.sh */,
+				35AE70CDEAF8AD0A7BC7E68357CACE27 /* Pods-leanplumButtonTests.debug.xcconfig */,
+				E6DD33821378AD14A41922DBFEA57482 /* Pods-leanplumButtonTests.release.xcconfig */,
+			);
+			name = "Pods-leanplumButtonTests";
+			path = "Target Support Files/Pods-leanplumButtonTests";
+			sourceTree = "<group>";
+		};
+		B402E5D472E7F58CE5C96B94CD8E764C /* Leanplum-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				1717E02BA4AFEEF765F21A4B285030B6 /* Leanplum.h */,
+				FFAD36486ABEC63B94D9A67402D69E1E /* LPNewsfeed.h */,
+				E8E2424B87D7BD00A4A3F30CB2FBB652 /* Frameworks */,
+			);
+			path = "Leanplum-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E34CF555CA1020ECA1C237CDD8028D74 /* Pods-leanplumButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				723E7B1B4DAECF642F2F607D37474054 /* Pods-leanplumButtonUITests-acknowledgements.markdown */,
+				52602FD085231B3CCEB87CBE0F7A52AE /* Pods-leanplumButtonUITests-acknowledgements.plist */,
+				6CDECA381AD99FF3CE5C537C32FA186D /* Pods-leanplumButtonUITests-dummy.m */,
+				33F07D11EDE1D6DD5720063D003B1195 /* Pods-leanplumButtonUITests-frameworks.sh */,
+				5E59725E8F418629A832F64DA1D0643A /* Pods-leanplumButtonUITests-resources.sh */,
+				4BD9E932B95F8E0EE92CCE1DF8DD2135 /* Pods-leanplumButtonUITests.debug.xcconfig */,
+				8955888B66C6866776608DE9B0DCC5F6 /* Pods-leanplumButtonUITests.release.xcconfig */,
+			);
+			name = "Pods-leanplumButtonUITests";
+			path = "Target Support Files/Pods-leanplumButtonUITests";
+			sourceTree = "<group>";
+		};
+		E8E2424B87D7BD00A4A3F30CB2FBB652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74C13E9AEF34B12DEB789A9591CC6ED0 /* Leanplum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BE61A5360E26263A771B789DC49749F /* Pods-leanplumButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D55108B7749ACC18B4BA8A5F488CF1 /* Build configuration list for PBXNativeTarget "Pods-leanplumButton" */;
+			buildPhases = (
+				DBC57AF53D3765356A014E3CAB212D8F /* Sources */,
+				F8B7D229BE98B14FE5D068FBF5A160C1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-leanplumButton";
+			productName = "Pods-leanplumButton";
+			productReference = 56C198E8652471C843C6252F05C77AEB /* libPods-leanplumButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6E1FBE706102CD751946E2E66374BB20 /* Pods-leanplumButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024592B4C5929555B30FD468187A0D0A /* Build configuration list for PBXNativeTarget "Pods-leanplumButtonTests" */;
+			buildPhases = (
+				FA3182AEA6CF72727AD500D262EE3A02 /* Sources */,
+				38764DDD858E0565FEA863339D6B3226 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-leanplumButtonTests";
+			productName = "Pods-leanplumButtonTests";
+			productReference = C5554847572C82EA5BCC179BFA67C70C /* libPods-leanplumButtonTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9C4EF3DE875C113502B8088A7F17D225 /* Pods-leanplumButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F97862D983FD71E91EA40609B96DE3 /* Build configuration list for PBXNativeTarget "Pods-leanplumButtonUITests" */;
+			buildPhases = (
+				6CB9C2BD95B6D49C76A2B46C3441A3FB /* Sources */,
+				321F28E168063F1C6BFF05ECF00C5B88 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-leanplumButtonUITests";
+			productName = "Pods-leanplumButtonUITests";
+			productReference = 7618ABD5C7002180C66ADF02FEC4A31E /* libPods-leanplumButtonUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 510BFBDFDFCAC248380BEC9497BEA8C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BE61A5360E26263A771B789DC49749F /* Pods-leanplumButton */,
+				6E1FBE706102CD751946E2E66374BB20 /* Pods-leanplumButtonTests */,
+				9C4EF3DE875C113502B8088A7F17D225 /* Pods-leanplumButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CB9C2BD95B6D49C76A2B46C3441A3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B853954D6684D80DA42C6CB269DE6B6 /* Pods-leanplumButtonUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC57AF53D3765356A014E3CAB212D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7907C8A063B496859E1D88F1E6CE311 /* Pods-leanplumButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3182AEA6CF72727AD500D262EE3A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADADC9F6874E36801B3EFD98B3E97E6 /* Pods-leanplumButtonTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C04DB9AF7DFDEC03814A0F59EDD236B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AE70CDEAF8AD0A7BC7E68357CACE27 /* Pods-leanplumButtonTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E170795F7DC8BFB4DDB73AAE02917D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3D72A54F9CD118FB0ECC217E07F4963 /* Pods-leanplumButton.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6575E42380DB40C0A34CADF842E2CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8955888B66C6866776608DE9B0DCC5F6 /* Pods-leanplumButtonUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		826F5C9B7B71918610FEC01A4B40E44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6DD33821378AD14A41922DBFEA57482 /* Pods-leanplumButtonTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D37C1C55272D511791F2D571DAC49EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD9E932B95F8E0EE92CCE1DF8DD2135 /* Pods-leanplumButtonUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE2C1D39C6504064218D26A8E80F66CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99E5068A7A065A06E00FF5BC8A0A6C58 /* Pods-leanplumButton.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		024592B4C5929555B30FD468187A0D0A /* Build configuration list for PBXNativeTarget "Pods-leanplumButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C04DB9AF7DFDEC03814A0F59EDD236B /* Debug */,
+				826F5C9B7B71918610FEC01A4B40E44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F97862D983FD71E91EA40609B96DE3 /* Build configuration list for PBXNativeTarget "Pods-leanplumButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37C1C55272D511791F2D571DAC49EA0 /* Debug */,
+				6575E42380DB40C0A34CADF842E2CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D55108B7749ACC18B4BA8A5F488CF1 /* Build configuration list for PBXNativeTarget "Pods-leanplumButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2C1D39C6504064218D26A8E80F66CB /* Debug */,
+				5E170795F7DC8BFB4DDB73AAE02917D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

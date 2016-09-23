@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A868AB512E36D4CB52749F2 /* libPods-leanplumButtonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 040587610D8DE59C19604064 /* libPods-leanplumButtonUITests.a */; };
 		A762C4791D95C581009B9BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C4781D95C581009B9BFB /* main.m */; };
 		A762C47C1D95C581009B9BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C47B1D95C581009B9BFB /* AppDelegate.m */; };
 		A762C47F1D95C581009B9BFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C47E1D95C581009B9BFB /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		A762C4871D95C582009B9BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A762C4851D95C582009B9BFB /* LaunchScreen.storyboard */; };
 		A762C4921D95C582009B9BFB /* leanplumButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C4911D95C582009B9BFB /* leanplumButtonTests.m */; };
 		A762C49D1D95C582009B9BFB /* leanplumButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A762C49C1D95C582009B9BFB /* leanplumButtonUITests.m */; };
+		F4D1746767E559578DCCD6EF /* libPods-leanplumButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C11C220B8701DD7CD9B9EA30 /* libPods-leanplumButton.a */; };
+		F694C89DD7A96C320D8DC1A6 /* libPods-leanplumButtonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D83FDCF1978B969C0C2D5C7 /* libPods-leanplumButtonTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040587610D8DE59C19604064 /* libPods-leanplumButtonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leanplumButtonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EB531E03B08F590F34704C7 /* Pods-leanplumButtonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leanplumButtonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-leanplumButtonUITests/Pods-leanplumButtonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D6292831CB00E5BBBECC3C4 /* Pods-leanplumButtonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leanplumButtonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-leanplumButtonUITests/Pods-leanplumButtonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5D83FDCF1978B969C0C2D5C7 /* libPods-leanplumButtonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leanplumButtonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6980F1C11310345CD330544C /* Pods-leanplumButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leanplumButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-leanplumButton/Pods-leanplumButton.debug.xcconfig"; sourceTree = "<group>"; };
+		6EFA2EEE50A89BFE01A7346E /* Pods-leanplumButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leanplumButtonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-leanplumButtonTests/Pods-leanplumButtonTests.release.xcconfig"; sourceTree = "<group>"; };
 		A762C4741D95C581009B9BFB /* leanplumButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leanplumButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A762C4781D95C581009B9BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A762C47A1D95C581009B9BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,9 @@
 		A762C4981D95C582009B9BFB /* leanplumButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leanplumButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A762C49C1D95C582009B9BFB /* leanplumButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leanplumButtonUITests.m; sourceTree = "<group>"; };
 		A762C49E1D95C582009B9BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11C220B8701DD7CD9B9EA30 /* libPods-leanplumButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-leanplumButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8459297F2E51FFF25F71F2D /* Pods-leanplumButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leanplumButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-leanplumButton/Pods-leanplumButton.release.xcconfig"; sourceTree = "<group>"; };
+		FAE6F0E25A14261BBFCCEA1B /* Pods-leanplumButtonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-leanplumButtonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-leanplumButtonTests/Pods-leanplumButtonTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D1746767E559578DCCD6EF /* libPods-leanplumButton.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F694C89DD7A96C320D8DC1A6 /* libPods-leanplumButtonTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A868AB512E36D4CB52749F2 /* libPods-leanplumButtonUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14ECDF2F4F0C721ECD1B3B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C11C220B8701DD7CD9B9EA30 /* libPods-leanplumButton.a */,
+				5D83FDCF1978B969C0C2D5C7 /* libPods-leanplumButtonTests.a */,
+				040587610D8DE59C19604064 /* libPods-leanplumButtonUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A762C46B1D95C581009B9BFB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				A762C4901D95C582009B9BFB /* leanplumButtonTests */,
 				A762C49B1D95C582009B9BFB /* leanplumButtonUITests */,
 				A762C4751D95C581009B9BFB /* Products */,
+				E13E0623E4276B4C4CFBDF02 /* Pods */,
+				14ECDF2F4F0C721ECD1B3B0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +167,19 @@
 			path = leanplumButtonUITests;
 			sourceTree = "<group>";
 		};
+		E13E0623E4276B4C4CFBDF02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6980F1C11310345CD330544C /* Pods-leanplumButton.debug.xcconfig */,
+				D8459297F2E51FFF25F71F2D /* Pods-leanplumButton.release.xcconfig */,
+				FAE6F0E25A14261BBFCCEA1B /* Pods-leanplumButtonTests.debug.xcconfig */,
+				6EFA2EEE50A89BFE01A7346E /* Pods-leanplumButtonTests.release.xcconfig */,
+				1EB531E03B08F590F34704C7 /* Pods-leanplumButtonUITests.debug.xcconfig */,
+				5D6292831CB00E5BBBECC3C4 /* Pods-leanplumButtonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A762C4A11D95C582009B9BFB /* Build configuration list for PBXNativeTarget "leanplumButton" */;
 			buildPhases = (
+				2F396A06E75D121A8F8E12D8 /* [CP] Check Pods Manifest.lock */,
 				A762C4701D95C581009B9BFB /* Sources */,
 				A762C4711D95C581009B9BFB /* Frameworks */,
 				A762C4721D95C581009B9BFB /* Resources */,
+				33F0270EE64A63AFA18074DB /* [CP] Embed Pods Frameworks */,
+				1F885E3C0AC03122631E19D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A762C4A41D95C582009B9BFB /* Build configuration list for PBXNativeTarget "leanplumButtonTests" */;
 			buildPhases = (
+				7CD6EE9F0CC99035F2D6C2B9 /* [CP] Check Pods Manifest.lock */,
 				A762C4891D95C582009B9BFB /* Sources */,
 				A762C48A1D95C582009B9BFB /* Frameworks */,
 				A762C48B1D95C582009B9BFB /* Resources */,
+				BA3B02A7B91094DE7DE4C98E /* [CP] Embed Pods Frameworks */,
+				85A5A597975AA946709CD754 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A762C4A71D95C582009B9BFB /* Build configuration list for PBXNativeTarget "leanplumButtonUITests" */;
 			buildPhases = (
+				CC38DB349FA14522BE4B981B /* [CP] Check Pods Manifest.lock */,
 				A762C4941D95C582009B9BFB /* Sources */,
 				A762C4951D95C582009B9BFB /* Frameworks */,
 				A762C4961D95C582009B9BFB /* Resources */,
+				0D2ED3204F9362B0FB7BFCB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +312,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D2ED3204F9362B0FB7BFCB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leanplumButtonUITests/Pods-leanplumButtonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F885E3C0AC03122631E19D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leanplumButton/Pods-leanplumButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F396A06E75D121A8F8E12D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33F0270EE64A63AFA18074DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leanplumButton/Pods-leanplumButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD6EE9F0CC99035F2D6C2B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85A5A597975AA946709CD754 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leanplumButtonTests/Pods-leanplumButtonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA3B02A7B91094DE7DE4C98E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-leanplumButtonTests/Pods-leanplumButtonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC38DB349FA14522BE4B981B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A762C4701D95C581009B9BFB /* Sources */ = {
@@ -411,6 +582,7 @@
 		};
 		A762C4A21D95C582009B9BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6980F1C11310345CD330544C /* Pods-leanplumButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = leanplumButton/Info.plist;
@@ -422,6 +594,7 @@
 		};
 		A762C4A31D95C582009B9BFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8459297F2E51FFF25F71F2D /* Pods-leanplumButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = leanplumButton/Info.plist;
@@ -433,6 +606,7 @@
 		};
 		A762C4A51D95C582009B9BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE6F0E25A14261BBFCCEA1B /* Pods-leanplumButtonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = leanplumButtonTests/Info.plist;
@@ -445,6 +619,7 @@
 		};
 		A762C4A61D95C582009B9BFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFA2EEE50A89BFE01A7346E /* Pods-leanplumButtonTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = leanplumButtonTests/Info.plist;
@@ -457,6 +632,7 @@
 		};
 		A762C4A81D95C582009B9BFB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB531E03B08F590F34704C7 /* Pods-leanplumButtonUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = leanplumButtonUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -468,6 +644,7 @@
 		};
 		A762C4A91D95C582009B9BFB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D6292831CB00E5BBBECC3C4 /* Pods-leanplumButtonUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = leanplumButtonUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -496,6 +673,7 @@
 				A762C4A31D95C582009B9BFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A762C4A41D95C582009B9BFB /* Build configuration list for PBXNativeTarget "leanplumButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +682,7 @@
 				A762C4A61D95C582009B9BFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A762C4A71D95C582009B9BFB /* Build configuration list for PBXNativeTarget "leanplumButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +691,7 @@
 				A762C4A91D95C582009B9BFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

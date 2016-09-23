@@ -7,21 +7,37 @@
 //
 
 #import "ViewController.h"
+#import <Leanplum/Leanplum.h>
+
+DEFINE_VAR_INT(startCount, 0);
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *countLabel;
+@property (nonatomic) int count;
 @end
+
+
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+@synthesize count = _count;
+- (int) count
+{
+    return _count == 0 ? startCount.intValue : _count;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setCount:(int)count
+{
+    _count = count;
+    self.countLabel.text = [NSString stringWithFormat: @"Count: %d", self.count ];
+}
+
+- (IBAction)incrementCount:(UIButton *)sender {
+    self.count++;
+}
+
+- (IBAction)decrementCount:(UIButton *)sender {
+    self.count--;
 }
 
 @end
